@@ -7,12 +7,13 @@ using Microsoft.Extensions.Logging;
 
 namespace WC08.Controllers
 {
+    //comment
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
         private static readonly string[] Summaries = {
-            "Freezing", "Bracing", "Chilly", "Heet", "Mild", "Warm", "Balmy", "koud", "Sweltering", "Scorching"
+            "Freezing", "Bracing", "Chilly", "Heet", "Mild", "Warm", "Balmy", "Coldy", "Sweltering", "Scorching"
         };
 
         private readonly ILogger<WeatherForecastController> _logger;
