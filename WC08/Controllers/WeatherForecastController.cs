@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace WC08.Controllers
 {
-    //comment
+    //comment hierzo beetje ja 
     [ApiController]
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
